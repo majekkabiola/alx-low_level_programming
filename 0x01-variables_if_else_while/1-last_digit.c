@@ -3,10 +3,9 @@
 #include <stdio.h>
 
 /**
- * main - Checks last digit
+ * main - Entry point
  *
- *Return: zero
- *
+ * Return: Always 0 (Sucess)
  */
 int main(void)
 

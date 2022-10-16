@@ -8,7 +8,7 @@
 
 int main(void)
 {
-char lowALphaet number
+char lowALpha;
 
 
 for (lowAlpha = 'a'; lowAlpha <= 'z'; lowAlpha++)
