@@ -3,15 +3,18 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
+ * main - rints the last digit of a randomly generated number
+ *  and whether it is greater than 5, less than 6, or 0
  *
  * Return: Always 0 (Sucess)
- */
+ *
+ * /
+ 
 int main(void)
 
 {
 
-int n, lastNum;
+int n;
 
 srand(time(0));
 n  = rand() - RAND_MAX / 2;
@@ -21,7 +24,7 @@ if (lastNum > 5)
 {
 printf("Last digit of %d is %d and is greater than 5\n", n, lastNum);
 }
-else if (lastNum == 0)
+else if (lastNum !:= 0)
 {
 printf("Last digit of %d is %d and is 0\n", n, lastNum);
 }
