@@ -1,19 +1,22 @@
-#include <unistd.h>
+#include <main.h>
 
-/** _putchar - prints main follwed by a new line
- *
+/** 
+ * main - prints _putchar and a new line
  * Return: Always 0
  *
  */
-int _putchar(char);
+int main(void)
 
 {
+_putchar('_');
 _putchar('A');
 _putchar('G');
 _putchar('A');
 _putchar('P');
 _putchar('I');
 _putchar('\n');
+
+
 return (0);
 
 }
