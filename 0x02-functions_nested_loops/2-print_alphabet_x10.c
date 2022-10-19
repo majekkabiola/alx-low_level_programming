@@ -1,7 +1,8 @@
 #include "main.h"
 
-/** print_alphabet_x10 - prints teh aklphabets in lowercase,
- * followed by new line ten times 
+/*
+ *print_alphabet_x10 - prints the alphabets in lowercase,
+ *followed by new line ten times 
  */
 
 void print_alphabet_x10(void)
@@ -10,7 +11,7 @@ void print_alphabet_x10(void)
 	int i;
 
 	i = 0;
-	
+
 	while (i < 10)
 	{
 		ch = 'a';
