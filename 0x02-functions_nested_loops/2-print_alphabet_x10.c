@@ -1,11 +1,14 @@
 #include "main.h"
 
-/*
- *print_alphabet_x10 - prints the alphabets in lowercase,
- *followed by new line ten times
+/**
+ * print_alphabet_x10 - prints alphabets 10
+ *
+ * Retun: Always (0)
  */
 
+
 void print_alphabet_x10(void)
+
 {
 	char ch;
 	int i;
